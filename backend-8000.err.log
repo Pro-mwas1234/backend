@@ -1,0 +1,892 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\augus\\OneDrive\\Desktop\\streaming\\anidoom\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19608] using WatchFiles
+INFO:     Started server process [19800]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2026-08-08 18:51:51,148 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/182205/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 18:51:54,702 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/moana-2-C1roud60JE4 "HTTP/1.1 200 OK"
+2026-08-08 18:51:58,691 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/3908506583235477456?detail_path=moana-2-C1roud60JE4&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 18:51:58,747 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 18:52:00,180 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/3908506583235477456/captions?detail_path=moana-2-C1roud60JE4&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 18:52:02,050 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 18:52:03,000 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/59970/full "HTTP/1.1 200 OK"
+2026-08-08 18:52:44,467 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/182205 "HTTP/1.1 200 OK"
+2026-08-08 18:52:45,194 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 18:52:45,922 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/61048/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:52:45,922 WARNING anidoom.catalog: MAL enrich failed for details 186863: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/61048/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:52:56,709 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/186863 "HTTP/1.1 200 OK"
+2026-08-08 18:52:57,682 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx117942-N0Mou273d16e.png "HTTP/1.1 200 OK"
+2026-08-08 18:52:57,733 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/banner/186863-hRsC2yxvILTx.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:52:58,934 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx125875-tYR2UYiTPML9.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:53:01,264 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/186863/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:53:02,340 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:53:03,076 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/186863/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:53:05,204 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:53:06,658 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/186863/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:53:08,156 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:53:10,140 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/186863/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 18:53:11,771 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:53:13,201 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/182205/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 18:54:39,796 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/186863/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 18:54:49,201 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/182205/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 18:56:13,978 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 18:56:55,637 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/182205/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 18:57:00,481 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/182205/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 18:57:05,614 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 18:57:06,788 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/29978/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:06,788 WARNING anidoom.catalog: MAL enrich failed for 102065: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/29978/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:07,363 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/61139/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:07,373 WARNING anidoom.catalog: MAL enrich failed for 187317: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/61139/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:07,937 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/33771/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:07,937 WARNING anidoom.catalog: MAL enrich failed for 97609: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/33771/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:08,516 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/48386/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:08,516 WARNING anidoom.catalog: MAL enrich failed for 125513: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/48386/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:09,103 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/1667/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:09,114 WARNING anidoom.catalog: MAL enrich failed for 1667: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/1667/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:09,236 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anineko/182205/sub/anineko-1 "HTTP/1.1 200 OK"
+2026-08-08 18:57:09,692 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/57557/full "HTTP/1.1 429 Too Many Requests"
+2026-08-08 18:57:09,692 WARNING anidoom.mal: Jikan 429 — sleeping 2.0s
+2026-08-08 18:57:10,272 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/62216/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:10,272 WARNING anidoom.catalog: MAL enrich failed for 168087: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/62216/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:10,887 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/5040/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:10,887 WARNING anidoom.catalog: MAL enrich failed for 5040: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/5040/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:11,906 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/57557/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 18:57:11,916 WARNING anidoom.catalog: MAL enrich failed for 171630: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/57557/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 18:57:12,618 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b102065-bOnARvMyBPOC.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:12,909 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97609-qSAaN9XbRQjj.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:12,909 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187317-oD1Pwu43UVPQ.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:12,925 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171630-CW3kbduXmmUE.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:12,931 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1667.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:13,295 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97857-ICKs86L2ymjU.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:13,669 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13283-ve12LPFa2ddd.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:13,691 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204491-ctlXtdKk4VJi.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:13,770 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1117.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:14,078 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx688-RztDGIBBugvj.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:14,102 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125513-P5lwVv2M4nSw.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:14,850 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5040-9ruuekq2LZKJ.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:14,875 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168087-Xp8bIjULlNd4.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:15,028 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2291-mfM44JGWN1vV.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:15,623 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6452-wilNb4hhTW5j.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:15,921 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 18:57:16,949 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/21/full "HTTP/1.1 200 OK"
+2026-08-08 18:57:17,969 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b17671-5FX5kKX8BcaG.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:18,328 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180436-zR0dJuKGZNOK.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:19,331 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177222-0askLR6sBc01.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:19,581 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142962-22tCMEwIT9ZU.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:20,560 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4419.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:21,204 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx675-ddsywfey1lbT.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:21,657 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116147-ihwpyRJMuFKx.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:21,673 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99646-7BJsXEz05VBK.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:23,544 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120515-En4ZLN9P9ZKb.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:23,906 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128371-s0bqcCcvTasE.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:23,957 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx459-Ivw65mUXackh.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:24,634 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anizone/182205/sub/anizone-1 "HTTP/1.1 200 OK"
+2026-08-08 18:57:24,963 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156084-vQYir17FxUMl.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:25,793 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100133-ON96W9oFFvZL.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:25,911 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx19123-leET1CrSJknT.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:26,097 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115269-QRSx2OKO4ntd.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:26,136 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188668-rOB7rkgOz89w.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:26,807 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105143-5uBDmhvMr6At.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:26,939 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116054-FD9QZRypg2Ot.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:27,151 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197178-Ui8PY9HQbNgu.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:27,202 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anibd/182205/sub/anibd-1 "HTTP/1.1 200 OK"
+2026-08-08 18:57:28,545 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21831-qj5IKYiPOupF.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:28,973 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21461-uMKVoLchuwUK.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:29,011 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205068-KPJVtEp9imju.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:29,491 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20527-6idifxd10b2Q.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:29,623 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206362-4YVRzOqKGbSK.png "HTTP/1.1 200 OK"
+2026-08-08 18:57:29,730 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b145323-Zw8LG56pXLW4.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:57:35,597 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/kaa/182205/sub/kaa-1 "HTTP/1.1 200 OK"
+2026-08-08 18:58:05,677 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/21 "HTTP/1.1 200 OK"
+2026-08-08 18:58:11,068 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx466-bVP54I7dCB2F.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:11,084 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:11,155 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1094-H3YFJ1TR0ZZi.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:11,204 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1238-Rf2wqBrCwgvO.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:11,215 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2020.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:11,225 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1237.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:12,499 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2386-NQQkq1taHJ08.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:12,624 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2490-AL4WmnCJ5zvE.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:12,661 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx12001-XX0NNNfaKZ3e.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:12,677 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b16239-XzoVjd7JK8xJ.png "HTTP/1.1 200 OK"
+2026-08-08 18:58:12,739 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b16468-pMKFwfY8lYZX.png "HTTP/1.1 200 OK"
+2026-08-08 18:58:12,872 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15323.jpg "HTTP/1.1 200 OK"
+2026-08-08 18:58:20,798 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animegg/182205/sub/animegg-1 "HTTP/1.1 200 OK"
+2026-08-08 18:58:24,223 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:58:27,025 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:58:30,005 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/21/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 18:58:33,263 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 18:58:34,502 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 19:00:14,092 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 19:02:12,930 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b102065-bOnARvMyBPOC.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,008 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1667.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,028 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125513-P5lwVv2M4nSw.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,038 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171630-CW3kbduXmmUE.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,095 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187317-oD1Pwu43UVPQ.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,297 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97609-qSAaN9XbRQjj.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,645 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168087-Xp8bIjULlNd4.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,800 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204491-ctlXtdKk4VJi.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:13,897 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5040-9ruuekq2LZKJ.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:14,212 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1117.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:14,469 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97857-ICKs86L2ymjU.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:14,705 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13283-ve12LPFa2ddd.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:16,177 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx688-RztDGIBBugvj.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:19,436 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180436-zR0dJuKGZNOK.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:19,440 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2291-mfM44JGWN1vV.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:19,558 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142962-22tCMEwIT9ZU.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:19,558 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6452-wilNb4hhTW5j.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:19,623 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:19,689 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b17671-5FX5kKX8BcaG.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:20,844 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177222-0askLR6sBc01.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:21,109 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4419.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:21,128 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx675-ddsywfey1lbT.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:22,891 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116147-ihwpyRJMuFKx.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:23,283 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-B5DHjqZ3kW4b.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:23,312 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99646-7BJsXEz05VBK.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:23,549 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120515-En4ZLN9P9ZKb.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:25,331 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128371-s0bqcCcvTasE.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:25,366 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:02:26,265 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156084-vQYir17FxUMl.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:27,344 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115269-QRSx2OKO4ntd.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:27,513 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx459-Ivw65mUXackh.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:27,623 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100133-ON96W9oFFvZL.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:27,665 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx19123-leET1CrSJknT.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:28,557 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:02:29,651 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188668-rOB7rkgOz89w.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:29,842 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105143-5uBDmhvMr6At.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:29,989 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx466-bVP54I7dCB2F.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:30,259 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116054-FD9QZRypg2Ot.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:30,407 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1094-H3YFJ1TR0ZZi.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:31,501 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1237.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:32,185 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1238-Rf2wqBrCwgvO.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:32,374 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2020.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:32,432 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:02:32,432 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2386-NQQkq1taHJ08.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:32,815 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx12001-XX0NNNfaKZ3e.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:32,831 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2490-AL4WmnCJ5zvE.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:33,068 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b16239-XzoVjd7JK8xJ.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:33,139 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b16468-pMKFwfY8lYZX.png "HTTP/1.1 200 OK"
+2026-08-08 19:02:33,170 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15323.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:02:36,959 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/21/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 19:34:43,190 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 19:37:38,544 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 19:37:39,558 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/59970/full "HTTP/1.1 200 OK"
+2026-08-08 19:37:39,660 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 19:39:09,587 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 19:39:10,612 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 19:39:10,617 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 19:39:18,127 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 19:40:33,067 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/182205 "HTTP/1.1 200 OK"
+2026-08-08 19:40:53,514 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 19:47:05,760 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 19:47:06,749 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/21/full "HTTP/1.1 200 OK"
+2026-08-08 19:47:09,720 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/21/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 19:48:36,771 WARNING anidoom.anime: anivexa episodes failed for 21: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 19:48:37,486 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/21/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 19:48:37,486 WARNING anidoom.anime: Aniraku fallback failed for 21: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 19:50:07,498 WARNING anidoom.anime: anivexa episodes failed for 21: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 19:50:08,131 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/21/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 19:50:08,140 WARNING anidoom.anime: Aniraku fallback failed for 21: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 19:51:38,163 WARNING anidoom.anime: anivexa episodes failed for 21: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 19:51:39,449 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/21/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 19:51:39,462 WARNING anidoom.anime: Aniraku fallback failed for 21: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 19:52:34,010 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/21 "HTTP/1.1 200 OK"
+2026-08-08 19:52:42,316 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:52:44,475 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:52:46,802 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:52:52,992 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/21/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 19:53:11,079 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20835-QVV6LpJlqe1A.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:53:11,081 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21485-KR1sv4rYSe6V.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:53:11,081 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21230-rfoUZud1Jn0L.png "HTTP/1.1 200 OK"
+2026-08-08 19:53:11,091 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx19123-leET1CrSJknT.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:53:21,984 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:53:28,940 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:53:41,130 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anidbapp/21/sub/anidbapp-1 "HTTP/1.1 200 OK"
+2026-08-08 19:53:45,185 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:55:34,029 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anidbapp/21/sub/anidbapp-1 "HTTP/1.1 200 OK"
+2026-08-08 19:55:34,995 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 19:55:36,100 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/59970/full "HTTP/1.1 200 OK"
+2026-08-08 19:55:50,914 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animenosub/21/sub/animenosub-1 "HTTP/1.1 200 OK"
+2026-08-08 19:55:53,671 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:55:55,834 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:56:20,794 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anizone/21/sub/anizone-1 "HTTP/1.1 200 OK"
+2026-08-08 19:56:29,942 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/182205 "HTTP/1.1 200 OK"
+2026-08-08 19:56:30,603 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg "HTTP/1.1 200 OK"
+2026-08-08 19:56:33,362 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:56:35,620 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/182205/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 19:57:27,476 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/182205/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 19:57:28,092 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 19:57:29,031 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/21/full "HTTP/1.1 200 OK"
+2026-08-08 19:57:29,169 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anibd/21/sub/anibd-1 "HTTP/1.1 200 OK"
+2026-08-08 19:58:32,762 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anibd/21/sub/anibd-1 "HTTP/1.1 200 OK"
+2026-08-08 19:58:56,581 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:58:58,218 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:59:01,037 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:59:03,451 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:59:05,297 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:59:06,974 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 19:59:09,714 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/182205/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 19:59:11,672 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/21/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 20:01:49,094 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:01:50,906 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:01:52,551 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/182205/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:01:54,293 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/182205/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 20:02:09,990 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/182205/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 20:02:25,518 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99302-b40WIhc5dylo.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:25,522 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx462-Ig8zfdsFWcql.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:25,527 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx459-Ivw65mUXackh.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:25,541 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21831-qj5IKYiPOupF.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:25,552 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx461-DC9fMDl3AaK1.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:25,552 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx460-p9HObfGUhWn0.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:26,417 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx463-QDnETPoHp9oD.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:27,328 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/21/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 20:02:27,575 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx464-g4wcZPjbhY5j.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:27,587 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2107-H8bRuRRbhCIJ.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:27,594 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx465-qSRr0MKYhS0I.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:28,232 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx3848-SCnYGTn34Llt.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:28,252 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4155-P5TDf6t6qFwX.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:28,367 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9999-2icUDMDtpH2L.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:28,592 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx12859-uQFENDPzMWz6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:28,712 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21335-XsXdE0AeOkkZ.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:28,831 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx96427-XiDc44cTlf29.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:28,844 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30013-BeslEMqiPhlk.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:29,075 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101918-3uyCYHw1syki.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:29,192 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8740-oZajT3brPn7b.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:29,297 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105143-5uBDmhvMr6At.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:29,552 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx102639-AjxqMLkusd2Y.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:29,652 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b106492-ciLSI5nTJsV7.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:29,822 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n106572-k1gqIsDcqGaV.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:29,898 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n107110-pF0sMxDe3aLi.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,082 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b107256-Pvgk6VnCmMZq.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,184 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2385-06iBj9aNIadt.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,401 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101099-3AoCbJWTj2cV.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,497 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21880-uxsZ880LXSdY.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,582 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5252.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,773 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30793-Zca4SIWG5j8e.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,862 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113308-u6wWW3d01DSt.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:30,932 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b114761-C2xOMuA44zKY.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:31,152 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:02:31,229 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx10033-V7xnlgAVtaVR.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:31,317 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx813-ZhnFNOeCU5dQ.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:31,362 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126649-sbuKTAghtsln.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:31,562 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx134184-25CEkbRJEzXB.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:31,662 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141902-fTyoTk8F8qOl.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:31,762 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143293-1ngwckHDsK95.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:31,872 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx167404-QMZJVARntkbv.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:32,157 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177475-8HlvUgopoH0S.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:32,180 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182469-JQ808NBPxmgn.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:32,277 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183423-6Iiu194UDxD0.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:33,207 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171630-CW3kbduXmmUE.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:33,805 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187225-H0ppAOkOYMxM.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:34,297 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:02:34,307 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197178-Ui8PY9HQbNgu.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:34,323 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188668-rOB7rkgOz89w.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:34,342 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187380-RZmxpJyB3A6Y.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:02:34,742 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx204432-h8U4bVnSU6bM.png "HTTP/1.1 200 OK"
+2026-08-08 20:02:37,615 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:02:42,117 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/21/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 20:04:51,252 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:04:52,273 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/50462/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 20:04:52,277 WARNING anidoom.catalog: MAL enrich failed for 141950: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/50462/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 20:04:52,897 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/60568/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 20:04:52,908 WARNING anidoom.catalog: MAL enrich failed for 141953: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/60568/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 20:04:53,820 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141953-S3RozQSOxzrw.png "HTTP/1.1 200 OK"
+2026-08-08 20:04:53,833 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141950-zAmZROOecLLP.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:04:55,108 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:04:55,352 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/60568/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 20:04:55,352 WARNING anidoom.catalog: MAL enrich failed for details 141953: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/60568/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 20:05:31,631 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/182205/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 20:06:06,099 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animegg/182205/dub/animegg-1 "HTTP/1.1 200 OK"
+2026-08-08 20:06:25,388 WARNING anidoom.anime: anivexa episodes failed for 141953: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:06:26,610 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/141953/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:06:26,614 WARNING anidoom.anime: Aniraku fallback failed for 141953: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:06:34,997 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/141953 "HTTP/1.1 200 OK"
+2026-08-08 20:07:49,434 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animegg/182205/sub/animegg-1 "HTTP/1.1 200 OK"
+2026-08-08 20:08:14,096 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141950-zAmZROOecLLP.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:08:14,108 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/banner/141953-5o87aOKuZf8c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:08:15,748 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/banner/141953-5o87aOKuZf8c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:08:15,846 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141950-zAmZROOecLLP.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:08:18,857 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/141953/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:08:19,781 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/141953/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:08:20,558 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/141953/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:08:23,308 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/141953/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 20:08:39,009 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/141953/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 20:09:07,932 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:09:08,551 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:09:08,561 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:09:09,181 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:09:10,125 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/59970/full "HTTP/1.1 200 OK"
+2026-08-08 20:10:40,151 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:10:40,771 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:10:40,773 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:12:10,786 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:12:11,531 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:12:11,531 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:13:41,546 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:13:42,152 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:13:42,160 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:13:42,987 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:13:43,901 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:13:44,943 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:13:47,951 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 200 OK"
+2026-08-08 20:13:50,326 INFO httpx: HTTP Request: GET http://127.0.0.1:8001/atsu/home "HTTP/1.1 200 OK"
+2026-08-08 20:13:50,495 INFO httpx: HTTP Request: GET http://127.0.0.1:8001/nato/home "HTTP/1.1 200 OK"
+2026-08-08 20:13:51,730 INFO httpx: HTTP Request: GET https://imgs-2.2xstorage.com/thumb/brilliantly-beautiful-white-lotus-teaching-online.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:51,806 INFO httpx: HTTP Request: GET https://img-r2.2xstorage.com/thumb/daesahyeong-lee-hoe.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:51,806 INFO httpx: HTTP Request: GET https://img-r2.2xstorage.com/thumb/the-worlds-best-kunlun-tavern.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:51,813 INFO httpx: HTTP Request: GET https://img-r2.2xstorage.com/thumb/the-immortal-genius-spearman.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:51,821 INFO httpx: HTTP Request: GET https://imgs-2.2xstorage.com/thumb/my-lover-is-paranoid.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:51,924 INFO httpx: HTTP Request: GET https://img-r1.2xstorage.com/thumb/the-substitute-princess-becomes-the-empire-s-most-beloved.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:52,391 INFO httpx: HTTP Request: GET https://storage4.waitst.com/thumb/the-returned-c-rank-tank-wont-die.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:52,481 INFO httpx: HTTP Request: GET https://img-r1.2xstorage.com/thumb/marriage-of-a-sacrificial-princess.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:52,491 INFO httpx: HTTP Request: GET https://img-r1.2xstorage.com/thumb/fake-she-s-a-fake-my-sister-stole-everything-from-me.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:52,501 INFO httpx: HTTP Request: GET https://img-r2.2xstorage.com/thumb/a-fortune-telling-princess.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:52,506 INFO httpx: HTTP Request: GET https://storage.waitst.com/thumb/regressor-of-the-fallen-family.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:52,771 INFO httpx: HTTP Request: GET https://img-r1.2xstorage.com/thumb/pens-down.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,011 INFO httpx: HTTP Request: GET https://img-r1.2xstorage.com/thumb/everyones-darling.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,121 INFO httpx: HTTP Request: GET https://storage.waitst.com/thumb/this-is-what-first-love-is-like-your-majesty.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,137 INFO httpx: HTTP Request: GET https://img-r2.2xstorage.com/thumb/the-leftover-saints-supposedly-loveless-marriage-the-sister-her-younger-siblings-called-unlovable-is-cherished-by-a-younger-crown-prince-who-vows-i-want-to-give-everything-only-to-you.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,413 INFO httpx: HTTP Request: GET https://atsu.moe/posters/3Pe8J1zAEnTA0UeP.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,436 INFO httpx: HTTP Request: GET https://atsu.moe/posters/n6oo6UH4grMnLAow.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,523 INFO httpx: HTTP Request: GET https://atsu.moe/posters/MJk13CQmMOOPlUs5.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,721 INFO httpx: HTTP Request: GET https://atsu.moe/posters/U3xYHArEcNP3XtYe.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,831 INFO httpx: HTTP Request: GET https://atsu.moe/posters/PpYZrYu1LUs0GVYT.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:53,925 INFO httpx: HTTP Request: GET https://atsu.moe/posters/sEsUl12OSXaW9LrZ.webp "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,149 INFO httpx: HTTP Request: GET https://atsu.moe/posters/J1JILPj5ddLw6eFU.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,246 INFO httpx: HTTP Request: GET https://atsu.moe/posters/QgvPovHa5WLP0n2x.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,306 INFO httpx: HTTP Request: GET https://atsu.moe/posters/5vQQGRXYH5Kam2JQ.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,371 INFO httpx: HTTP Request: GET https://atsu.moe/posters/0IMqmxGkKfW0sjcF.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,481 INFO httpx: HTTP Request: GET https://atsu.moe/posters/OYWdJHSnCFCHXCFe.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,606 INFO httpx: HTTP Request: GET https://atsu.moe/posters/ccAwZwiCv116GAW4.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,881 INFO httpx: HTTP Request: GET https://atsu.moe/posters/0UUzPHnUTjJaZ0Wf.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,981 INFO httpx: HTTP Request: GET https://atsu.moe/posters/QhWHsJgD7TlykjWu.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:54,983 INFO httpx: HTTP Request: GET https://atsu.moe/posters/tXG16YtxYMnUhney.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:55,051 INFO httpx: HTTP Request: GET https://atsu.moe/posters/Xe1qinJDext0a0t4.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:55,141 INFO httpx: HTTP Request: GET https://atsu.moe/posters/iku9Qb2SLOo9zZpf.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:55,261 INFO httpx: HTTP Request: GET https://atsu.moe/posters/BcA94pE3v9m5f8XB.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:55,545 INFO httpx: HTTP Request: GET https://atsu.moe/posters/4PwnelybXn4PgJRw.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:55,651 INFO httpx: HTTP Request: GET https://atsu.moe/posters/DwLDF9vrlXGRqsIl.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,386 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,396 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,411 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,496 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209983-sFOcKyqMufxb.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,581 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187538-fXVXKYUA3VV6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,591 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171110-7zOdInS6DQNL.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,931 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196187-0dgFi2CPp3xn.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:56,936 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186863-AO4efoB8HuzA.png "HTTP/1.1 200 OK"
+2026-08-08 20:13:57,241 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190569-KnCQLI3Z8hPX.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:57,327 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:57,341 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx269-d2GmRkJbMopq.png "HTTP/1.1 200 OK"
+2026-08-08 20:13:57,361 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199748-PAFk9pGSUmFL.png "HTTP/1.1 200 OK"
+2026-08-08 20:13:57,446 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196218-UsdTTCrwpDIN.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:58,251 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:58,266 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:58,267 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:58,446 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196017-GynDNdbDzqzk.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:58,801 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:13:58,829 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:58,981 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194829-bZKwhfo60EuF.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:59,275 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1735-kGfVm0YqCPcu.png "HTTP/1.1 200 OK"
+2026-08-08 20:13:59,391 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-ZOCgArw9cgqI.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:13:59,771 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/21/full "HTTP/1.1 200 OK"
+2026-08-08 20:13:59,951 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b211308-88VZiAPkkXZV.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:00,131 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png "HTTP/1.1 200 OK"
+2026-08-08 20:14:00,207 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204466-vXMvIs4VOoQd.png "HTTP/1.1 200 OK"
+2026-08-08 20:14:00,221 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png "HTTP/1.1 200 OK"
+2026-08-08 20:14:00,292 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97940-fyh8o7gNbha0.png "HTTP/1.1 200 OK"
+2026-08-08 20:14:01,566 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-dE6UHbFFg1A5.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:01,633 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:01,809 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210031-TppgcHZh46LY.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:02,211 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx172463-LnXqHzt74SJL.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:02,291 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:02,301 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184356-SlFIstXUXJYP.png "HTTP/1.1 200 OK"
+2026-08-08 20:14:02,378 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178025-cWJKEsZynkil.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:02,670 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199111-gBSuBG61ElcW.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:14:50,316 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/21 "HTTP/1.1 200 OK"
+2026-08-08 20:15:02,965 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:15:05,871 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:15:08,811 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/21/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:15:15,362 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/21/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 20:15:36,793 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/21/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 20:16:02,036 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/21/dub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 20:16:31,752 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animegg/21/dub/animegg-1 "HTTP/1.1 200 OK"
+2026-08-08 20:18:29,571 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:18:30,346 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/50462/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 20:18:30,352 WARNING anidoom.catalog: MAL enrich failed for 141950: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/50462/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 20:18:30,931 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/60568/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 20:18:30,931 WARNING anidoom.catalog: MAL enrich failed for 141953: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/60568/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 20:18:33,207 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:18:33,444 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/60568/full "HTTP/1.1 504 Gateway Time-out"
+2026-08-08 20:18:33,452 WARNING anidoom.catalog: MAL enrich failed for details 141953: Server error '504 Gateway Time-out' for url 'https://api.jikan.moe/v4/anime/60568/full'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+2026-08-08 20:20:03,483 WARNING anidoom.anime: anivexa episodes failed for 141953: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:20:04,201 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/141953/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:20:04,201 WARNING anidoom.anime: Aniraku fallback failed for 141953: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:21:28,961 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/141953 "HTTP/1.1 200 OK"
+2026-08-08 20:22:24,606 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:22:25,552 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/59970/full "HTTP/1.1 200 OK"
+2026-08-08 20:22:36,196 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animegg/182205/sub/animegg-1 "HTTP/1.1 200 OK"
+2026-08-08 20:23:55,583 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:23:56,839 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:23:56,871 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:24:01,044 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/141953/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:24:03,166 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/141953/sub/allmanga-3 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:24:04,333 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/141953/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:24:05,986 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/141953/sub/reanime-1 "HTTP/1.1 200 OK"
+2026-08-08 20:24:06,952 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/allmanga/141953/sub/allmanga-1 "HTTP/1.1 500 Internal Server Error"
+2026-08-08 20:24:08,270 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/reanime/141953/sub/reanime-3 "HTTP/1.1 200 OK"
+2026-08-08 20:24:23,478 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/anikoto/141953/sub/anikoto-1 "HTTP/1.1 200 OK"
+2026-08-08 20:24:39,581 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 20:25:26,906 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:25:27,666 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:25:27,666 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:26:57,694 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:26:58,331 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:26:58,333 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:28:28,353 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:28:29,034 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:28:29,043 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:31:34,888 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 200 OK"
+2026-08-08 20:31:36,974 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/5fdb83efa95cbf3f5b8945d3b10a2f9f.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:36,994 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/05/ec5dcfa25ddf2561927d7e3e0a95a7a3.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:37,019 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/59fb1b9c36bdc710c2a17f176d97463b.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:37,057 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/03/c7c40e049408713ddec72ccdc484f33c.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:37,189 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/06/6f502931567f6fdb9a9942a244fb6c53.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:37,205 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/329fd3564d1026a3693c28b6aab0ca06.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:42,835 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/29/72f604c33bebdbdc65087429e5b1e40b.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:42,854 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/27/e7fc807f9310e662c16c2b4b08794dd9.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:46,361 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/22/b5afbba77095111f2a8b89c3316be474.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:46,921 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/22/c8e42366f813b0b18cf385f96f26c76c.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:47,586 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/14/69b32ec60b8bd398023fc6b468f50a63.png "HTTP/1.1 200 OK"
+2026-08-08 20:31:49,033 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/02/fac73c3dec80cde46022ebee52e92f38.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:49,298 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/8f516efb87c6d10460e585bb938d8fe1.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:50,469 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/04/1c89733a272a08c0f34748b135880fce.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:51,549 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/wizards-beyond-waverly-place-MsYzpWu2wF8 "HTTP/1.1 200 OK"
+2026-08-08 20:31:53,214 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/03/9b9a942c6f22dfd6832490aeb8d55c82.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:53,225 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/16/bd4560586928581bfbc34c477c114025.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:53,234 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/31/24bcefa7d4b59c974700f825bfa0aeb6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:53,243 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/30/3dda6351b063ad22eaf9ef445ff5f1eb-s.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:53,451 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/24/aec4757ddfb867f7a349de72c5676f59.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:54,193 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/15/bbff0b180c70fb78bb96785e6fa43374.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:54,197 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/17/8cb94013a82c29405b5cfdc7b481dccc.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:55,126 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/06/30/9a81bab0fa4d60ccaa2d666fd903f2b0.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:55,880 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/05/bd4114fca152ded3eb17f09ccf803166.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:57,385 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/05/c592a9fa4d2faaa6cf2cf717decd5ed6-s.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:31:59,835 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/7276411159472210592?detail_path=wizards-beyond-waverly-place-MsYzpWu2wF8&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 20:32:00,011 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/04/957781b5d665cbab977adb589eb01165.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:00,013 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/05/12ca0f356fdb02ba016dad1b6f3fedc8.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:00,030 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/06/86dc62f55bebf08eb14eac4f505e1bfa.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:00,040 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/31/d11100f28237d6d09960720dc1572042.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:00,117 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/30/2056e9bd75513977164ab4aef55e66dd.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:01,025 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/01/829a8cfbde1d0ecc084f5fe2b47afa78.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:01,960 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/23/984293ea4cc6668a122be0378fe229bf.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:02,978 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/23/5afbfc3a171dede42c952d9d561ad60d.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:04,684 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/3e4c278433b5b37328ea8b5fe673565d.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:05,881 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/03/29/95a37d73441098be8c925068516237ec.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:05,909 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/03/29/c22b2bb3413f758f66cf0369e32080e3.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:07,192 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/7276411159472210592/captions?detail_path=wizards-beyond-waverly-place-MsYzpWu2wF8&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 20:32:11,014 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2025/10/05/2c237051991d76fcd0b3fefb35eb4df2.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:11,173 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/10/13/7732b11f515db2bee0eb2cce6eb0d56d.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:11,225 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/03/29/b4b104486b3d1c799c1feeb01a14e5ec.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:11,704 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/02/5b96b5987595b1a28fc76895bbe227cf.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:11,999 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/06/03/18afae5d9af78384b5e4f5066550c4da.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:13,155 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/02/c9ad1fea121177fb81fe0312d6d32a8b.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:13,198 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2025/10/05/4c7f7645dec2dd5ad662a2a2902dc5de.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:13,204 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2024/05/17/64cf6ccd39573d1aa59880c438f6703c.jpeg "HTTP/1.1 200 OK"
+2026-08-08 20:32:13,342 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/02/556acc9b65980be0677aede6b0289413.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:13,594 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2025/11/03/50fc3d42870582dea737eb539978b9cd.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:14,124 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/02/0ea5aa606aabb289807ea81d4e79124c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:32:15,024 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/02/8f4ea056734d2c10e9d02a5a413c3c44.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:00,586 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search?q=s&page=1 "HTTP/1.1 200 OK"
+2026-08-08 20:33:01,346 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search/suggest?q=s "HTTP/1.1 200 OK"
+2026-08-08 20:33:02,388 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search?q=sp&page=1 "HTTP/1.1 200 OK"
+2026-08-08 20:33:04,324 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search/suggest?q=sp "HTTP/1.1 200 OK"
+2026-08-08 20:33:04,467 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/04/acf5eae6f2710eb3f26faa8e90797ae4.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:05,369 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/06/828b7b515796006b5314666f907854e9.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:05,712 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/06/fc90c8a9f762c10b9f98270712ec1f27.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:06,686 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search?q=spi&page=1 "HTTP/1.1 200 OK"
+2026-08-08 20:33:07,912 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2025/11/01/d262e4d7a70d87776291ebf6f92778b7.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:08,102 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search/suggest?q=spi "HTTP/1.1 200 OK"
+2026-08-08 20:33:08,237 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/04/2b663f724a69d803c951ddeef019fc54.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:08,363 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2024/10/22/2bbef63c11c6e6cdc8e36372bf04c3da.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,258 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2024/12/14/91cbb625b286049d3f38ca3425d20594.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,274 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search?q=spider&page=1 "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,293 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2025/12/31/d9ff1dac14640dfa0ce157fd3c4d408e.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,293 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/21e0d1a7edef149f206abac848e220aa.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,309 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/e071647b6a4242048c4ebfc5a08f8d45.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,562 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/04/28/471de8c369453dcac1d0a7aaf53d6654.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,958 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 20:33:09,958 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search/suggest?q=spider "HTTP/1.1 200 OK"
+2026-08-08 20:34:40,006 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:34:40,720 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:34:40,720 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:34:41,387 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:34:42,616 INFO httpx: HTTP Request: GET https://api.jikan.moe/v4/anime/59970/full "HTTP/1.1 200 OK"
+2026-08-08 20:34:43,437 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search/suggest?q=spider%20m "HTTP/1.1 200 OK"
+2026-08-08 20:34:43,817 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/a1f771950934f403fe26d53fd14c982a.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:44,167 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/08/13/1de84560f0de358c9ecafe2bfb87ec92.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:44,382 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search?q=spider%20m&page=1 "HTTP/1.1 200 OK"
+2026-08-08 20:34:44,490 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2025/11/02/c51fd8362b6a0baedfe59ebb5f3f31d0.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:44,587 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/3052ca21d50f9f205e52b9bc4f72c8eb.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:45,222 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/e9297d39584c33b5ded66cff74a31dc8.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:45,302 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/07/27/66bfbea840da4318f8da8325a891848e.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:46,116 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/8a20f4739ca5b5d4f7755ea2fbeb192c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:46,152 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/06/25/8f4ad3b1bf6ffa667c0a86e0524a47a7.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:46,199 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search?q=spider%20ma&page=1 "HTTP/1.1 200 OK"
+2026-08-08 20:34:46,637 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/c77b51e492d5c9c5e7551e704252d879.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:47,513 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/9319b1fe24793ee24067164ce993d658.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:47,702 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/57c3ccfb0054987e1bab9bbe4199c783.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:34:49,685 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search/suggest?q=spider%20ma "HTTP/1.1 200 OK"
+2026-08-08 20:34:50,903 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search?q=Spider-Man%3A%20Brand%20New%20Day&page=1 "HTTP/1.1 200 OK"
+2026-08-08 20:34:51,802 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/search/suggest?q=Spider-Man%3A%20Brand%20New%20Day "HTTP/1.1 200 OK"
+2026-08-08 20:36:21,821 WARNING anidoom.anime: anivexa episodes failed for 182205: Anivexa unreachable at http://127.0.0.1:8002 (ReadTimeout). Start it with anivexa-api/run.bat.
+2026-08-08 20:36:22,438 INFO httpx: HTTP Request: GET https://aniraku-backend-fhyy.onrender.com/api/v1/anime/182205/episodes "HTTP/1.1 503 Service Unavailable"
+2026-08-08 20:36:22,442 WARNING anidoom.anime: Aniraku fallback failed for 182205: Aniraku error 503: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service Suspended</title>
+</head>
+<body>
+This s
+2026-08-08 20:37:49,419 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/watch/animedunya/182205/sub/animedunya-1 "HTTP/1.1 200 OK"
+2026-08-08 20:38:02,515 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/182205 "HTTP/1.1 200 OK"
+2026-08-08 20:39:19,690 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:39:20,634 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:39:21,568 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 20:39:23,875 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:23,972 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:23,988 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:23,988 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209983-sFOcKyqMufxb.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:24,010 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171110-7zOdInS6DQNL.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:24,016 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187538-fXVXKYUA3VV6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:25,079 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186863-AO4efoB8HuzA.png "HTTP/1.1 200 OK"
+2026-08-08 20:39:25,244 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190569-KnCQLI3Z8hPX.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:25,288 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx269-d2GmRkJbMopq.png "HTTP/1.1 200 OK"
+2026-08-08 20:39:25,465 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199748-PAFk9pGSUmFL.png "HTTP/1.1 200 OK"
+2026-08-08 20:39:25,495 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196218-UsdTTCrwpDIN.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:26,415 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:26,431 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:26,542 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194829-bZKwhfo60EuF.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:26,665 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196187-0dgFi2CPp3xn.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:26,797 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1735-kGfVm0YqCPcu.png "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,052 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182616-ZOCgArw9cgqI.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,052 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b211308-88VZiAPkkXZV.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,552 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178789-hNXjKFzUq7mk.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,583 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,668 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207141-h5q5KJPd6vaX.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,684 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196017-GynDNdbDzqzk.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,794 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196012-R3YNjunufpYh.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:39:27,908 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png "HTTP/1.1 200 OK"
+2026-08-08 20:52:06,337 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/3c19d2242bbaef95ed22f7595a663e3e.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:06,347 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/08/11/ff7e28f870d30b6c4cc9389a1cc4afd6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:06,361 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/08/13/eaae28d7f0ead0593a0eb577e2bf42f5.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:06,455 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/8e507736f832f51f4b872a587953e644.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:12,073 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 200 OK"
+2026-08-08 20:52:19,017 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/06/12/63987aadc98615755a7ec3e4faaa69bc.png "HTTP/1.1 200 OK"
+2026-08-08 20:52:19,017 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/22/148a172fc69dd68e5b09fe4bb3f3cd8f.png "HTTP/1.1 200 OK"
+2026-08-08 20:52:19,032 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/23/b6af8e3269563c85828beb0a6a268c4c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:19,032 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/04/c692ea0e7f7904b799a93bb1535e55c3.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:21,978 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 200 OK"
+2026-08-08 20:52:29,328 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/01/7e8e8e61c0ba2b514203339716f3a9ca.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:29,328 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/05/f5e1a251105db8d434fe7af67f05adc3.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:29,343 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/05/e9ab36916569503a93938827d6055bfd.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:29,343 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/06/29/165b9b02ef1077859684cc7e985f93c9.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:29,351 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/08/d6257f33bb7b09afa69d0875f08368ff.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:30,249 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/13/6565b4f2af5a2c7c41f6be7e5b8fd5dd.jpeg "HTTP/1.1 200 OK"
+2026-08-08 20:52:30,786 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/29/0edc84ee1411702c81ab696507640614.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:31,815 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/bd0959b7ce517e11ee5a4294e987317c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:32,218 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/aeccff8c34d11a6127bf7d7d55d01279.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:32,456 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/19/18dc414debb3c0c809d425ba42aab99d.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:32,557 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/28/0c6a3f0387b6e17d022dd37fab205883.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:33,569 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/03/1737bd09ed2f39b47d07a6a3ee3337f6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:33,569 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/10295919bb6d968ca4f1d424d08391da.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:33,799 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/70c0a3584d216d586a8a60a5726e5b7e.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:34,207 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/48ea07f0676414dc636c90a813ff7feb.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:34,644 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/6492b9b3193c79a4eb05139ad9630860.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:35,293 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/5aabd308d910cd4a847c38965cd54a65.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:35,768 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 20:52:35,971 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/18/80d9ca49bcad817d3c289d1597d90cba.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:36,320 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/01/c92548347df06b29aa0e94daed2fb0f7.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:36,324 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/04/76412c868fa2967357e5086b7998b991.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:36,339 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/11/03/8621c8033d25479280d59dedc03dec3d.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:36,677 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/10/e5373ae453cf089c52da1f412e374288.jpeg "HTTP/1.1 200 OK"
+2026-08-08 20:52:37,127 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136/captions?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 20:52:37,216 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/03/cc627b2e6211f0b737a7b193c79cdb18.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:37,532 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/26/4a000380b4b61d2d9c9c67dfb402cc2a.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:37,532 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/e6614dc6717764c9cb6c891543948379.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:37,532 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/4599667c9c236d0d2a873f1115da6e4d.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:37,722 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/17/ec20741395c481dca0e1fcc35b3e735b.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:37,889 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/04/2bbad5d0bc90d30ab3d4f42bb3e9fa39.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:38,597 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/14/828b8818cc39762d3cf13519d55bc17c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:38,812 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/e110a430b16b6b6629f96b17eaa4aeb9.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:39,081 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/04/fbde64c9feb835b074caf5dc3a8acf6d.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:39,248 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/06/26/bb82fe6996de44d0ffeaf97ca2d5c4f9.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:39,267 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/fef28e2c95b4b247dcfb0d3233f5c650.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:39,638 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/14/6aef07a8b9bcbb8c82552a4c0e895a70.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:40,236 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/06/25/87e457e7ee97287500a562abb07f396f.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:40,242 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/05/06/3b988402509d217eaeefafcc5af42c3c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:40,275 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/19/d99ac94a58bcbb071845ac4b3fa0e667.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:40,744 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/03/9a153824ab0ca0df5fd12b09603801dd.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:41,035 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/900952be2cb092f7ac887fd905d9e932.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:41,293 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/07/06d2c45e2cd86f0701d9a8aa78f650ed.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:41,684 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/06/3895029669a0ac1fef88b1d9091886c6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:41,805 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/16/9f6ffc9475cad116f77cfde3192c85db.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:42,236 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/08/01/4a6deaf3cda4533141ce05c9b1b38235.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:42,236 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/29/321a2b2c5362a598db88b40e651bc3e9.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:42,408 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/8da35deb8adb2f5622c31d5dc6c6fe36.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:43,099 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/0548fd06bbe26f0da38de6f67e8d92d9.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:43,615 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/26/21368423421865617f84f12d124b8a5f.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:43,798 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/f3bc7b2ab8a7507779dd682fec486298.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:43,864 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/cbdb1f69830b01346a930c9d106064f5.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:45,103 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/a613ba8c6c5531ec8afb1135f7ae134f.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:45,724 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/07/43ebe48a0accf23d9f232a34c23b4e80.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:46,187 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/b2da364a48d800a3b603df85c7b60813.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:46,212 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/3a3e182e8c4a8a3f84afd593b41cc5dc.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:46,370 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/9fd9113b6be06b254bef10a8bea06eb1.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:46,520 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/13/3ac5fd8706242e7e23721ac430894d27.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:46,582 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/cf1f7e09572e9add9f7f8e47930af1bd.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:46,799 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/170b6903934d8a04cc56ba4ce5cbaf97.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:47,219 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/b131bbb03b54754b5c87f1878d6b790c.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:47,241 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/3078c9a52aa867ef92a3d951ddcd1b73.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:47,356 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/87c1baab3203ac4f38b9dabb292cdc04.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:47,863 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/e8a87a995b2753247c113c88e5fe2dfa.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:47,882 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/ae5f19c63daeffa1f585ee0ea5d8cb31.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:47,882 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/a00d07519f93dc9fc97b2758da0fe5f0.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:48,014 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/0fc00bf598ac4543fd546e51de4964cd.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:48,062 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/a9bfc1057cd047b82d03350d1c3941e6.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:48,993 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/26/658e705a2ae0a4461000083ca1ed3b81.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:49,943 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/27/55f4a6777c75539a824e4933aae086ec.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:50,571 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/13/dfe9bedbe2bcdfffa7465c74d354bccc.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:50,571 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2024/02/28/02080b74cb054a5cc9eb46ef35a6dacd.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:50,571 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/27/9c7d75b86a5d26a589d43bc1bb394f55.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:50,916 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/02/5f7997a74700e262446f28c154f203c8.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:51,296 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/09/02/50c50b419736428585e4586c87c53868.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:51,347 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/01/13/30f7bcb4d3523c744f1441d8a4f14c7d-s.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:52,151 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/11/20/588384316061ba2eb70814c53f70b991.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:52,481 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2025/04/03/905fb04d3b8100345c42907bb0eeee95.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:52,516 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/11/18/b8eca32913f6d0cf423ef001c1b2e53e.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:52,818 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/10/14/41007cfdfbd8bde5fd8849d680f45fbb-s.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:52,896 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/11/03/df4cbc17d952b8ce702715d2ab3b8c55.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:53,199 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2026/07/27/2e98b8864e00673fa8470bdec704485a.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:53,529 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/11/03/4f0d6b41e9f1426e0e730f55e4306369-s.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:53,599 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2022/10/14/3681b0724377658c3682c60cf4ff0a91.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:54,017 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2023/03/29/5642df47afc7bf40b504c3972a3353a8.jpg "HTTP/1.1 200 OK"
+2026-08-08 20:52:54,606 INFO httpx: HTTP Request: GET https://pbcdnw.aoneroom.com/image/2024/11/16/ed4199f8339d9251e2a9f864d2d7fcd0.jpg "HTTP/1.1 200 OK"
+WARNING:  WatchFiles detected changes in 'app\providers\moviebox.py'. Reloading...
+2026-08-08 21:01:00,343 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:01:01,752 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136/captions?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:03:12,151 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/moana-2-C1roud60JE4 "HTTP/1.1 200 OK"
+2026-08-08 21:03:14,316 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/3908506583235477456?detail_path=moana-2-C1roud60JE4&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 21:03:15,260 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 200 OK"
+2026-08-08 21:03:15,638 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/3908506583235477456/captions?detail_path=moana-2-C1roud60JE4&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 21:05:20,509 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/3908506583235477456?detail_path=moana-2-C1roud60JE4&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 21:05:21,824 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/3908506583235477456/captions?detail_path=moana-2-C1roud60JE4&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 21:05:40,320 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/dune-WLVlz3JUrMa "HTTP/1.1 200 OK"
+2026-08-08 21:05:41,078 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/9048868765454191080?detail_path=dune-WLVlz3JUrMa&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 21:05:42,657 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/9048868765454191080/captions?detail_path=dune-WLVlz3JUrMa&se=0&ep=0 "HTTP/1.1 200 OK"
+2026-08-08 21:06:02,498 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/evil-dead-burn-CFZQhVP4XM5 "HTTP/1.1 502 Bad Gateway"
+2026-08-08 21:06:02,514 WARNING anidoom.movies: Moviebox error: Moviebox error 502 for /detail/evil-dead-burn-CFZQhVP4XM5: {"detail":"Upstream API error: 404"}
+2026-08-08 21:13:08,408 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 200 OK"
+2026-08-08 21:13:09,452 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:13:10,669 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136/captions?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:14:17,653 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:14:19,189 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136/captions?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:31:33,851 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 200 OK"
+2026-08-08 21:31:35,070 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:31:36,340 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136/captions?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:41:34,631 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 200 OK"
+2026-08-08 21:41:38,588 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 21:41:39,888 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/api/stream/5598448838903318136/captions?detail_path=the-shards-ORmZGjdXyF6&se=1&ep=1 "HTTP/1.1 200 OK"
+2026-08-08 22:39:58,855 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 404 Not Found"
+2026-08-08 22:39:58,859 WARNING anidoom.movies: Moviebox error: Moviebox 404: /detail/the-shards-ORmZGjdXyF6
+2026-08-08 22:39:58,874 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 404 Not Found"
+2026-08-08 22:39:58,874 WARNING anidoom.movies: Moviebox error: Moviebox 404: /detail/the-shards-ORmZGjdXyF6
+2026-08-08 22:39:58,892 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 404 Not Found"
+2026-08-08 22:39:58,892 WARNING anidoom.movies: Moviebox error: Moviebox 404: /detail/the-shards-ORmZGjdXyF6
+2026-08-08 22:39:58,904 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/detail/the-shards-ORmZGjdXyF6 "HTTP/1.1 404 Not Found"
+2026-08-08 22:39:58,904 WARNING anidoom.movies: Moviebox error: Moviebox 404: /detail/the-shards-ORmZGjdXyF6
+2026-08-08 22:40:07,187 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 22:40:07,651 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:07,651 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:40:07,691 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:07,691 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:40:10,656 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:10,656 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:40:10,670 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:10,678 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:40:37,913 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:37,913 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:40:38,032 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:38,032 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:40:43,156 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 22:40:44,320 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-08 22:40:44,755 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:44,765 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:40:44,809 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:40:44,809 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:54:36,813 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:54:36,813 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:54:36,833 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:54:36,833 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:56:24,106 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:56:24,106 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:56:24,126 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:56:24,126 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:56:55,465 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:56:55,465 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-08 22:56:55,497 INFO httpx: HTTP Request: GET http://127.0.0.1:8003/home "HTTP/1.1 404 Not Found"
+2026-08-08 22:56:55,502 WARNING anidoom.movies: Moviebox error: Moviebox 404: /home
+2026-08-09 09:10:05,866 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-09 09:10:06,853 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-09 09:10:07,768 INFO httpx: HTTP Request: POST https://graphql.anilist.co/ "HTTP/1.1 200 OK"
+2026-08-09 09:10:09,640 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:09,727 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185874-aU3e6tBT6wwA.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:09,745 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187538-fXVXKYUA3VV6.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:09,809 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201514-BHAeWhSbcBrT.png "HTTP/1.1 200 OK"
+2026-08-09 09:10:09,845 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:09,933 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:10,524 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190569-KnCQLI3Z8hPX.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:10,829 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:10,923 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:10,933 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:11,056 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:11,059 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-kUgkcrfOrkUM.jpg "HTTP/1.1 200 OK"
+2026-08-09 09:10:11,269 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png "HTTP/1.1 200 OK"
+2026-08-09 09:10:11,523 INFO httpx: HTTP Request: GET https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-B5DHjqZ3kW4b.jpg "HTTP/1.1 200 OK"
+2026-08-09 17:00:07,424 INFO httpx: HTTP Request: GET http://127.0.0.1:8002/episodes/21 "HTTP/1.1 200 OK"
