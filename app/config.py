@@ -15,6 +15,19 @@ def _list_env(name: str, default: str) -> list[str]:
     return [p.strip() for p in os.getenv(name, default).split(",") if p.strip()]
 
 
+def _url_env(name: str, default: str) -> str:
+    """Env var holding a service base URL.
+
+    Render Blueprint ``fromService`` refs arrive scheme-less
+    (e.g. ``manga-vault:8001`` over the private network) — normalize to
+    http:// so httpx base_url stays valid.
+    """
+    url = os.getenv(name, default).strip()
+    if url and not url.startswith(("http://", "https://")):
+        url = f"http://{url}"
+    return url
+
+
 class Settings:
     """Runtime settings. Attributes mirror backend/.env.example."""
 
@@ -39,16 +52,16 @@ class Settings:
     JIKAN_URL: str = os.getenv("JIKAN_URL", "https://api.jikan.moe/v4")
 
     # Manga sidecar (vendored walterwhite-69/MangaVault, see manga-vault/)
-    MANGA_VAULT_URL: str = os.getenv("MANGA_VAULT_URL", "http://127.0.0.1:8001")
+    MANGA_VAULT_URL: str = _url_env("MANGA_VAULT_URL", "http://127.0.0.1:8001")
     # nato (Manganato) + atsu (Atsumaru) work; comix is broken upstream and
     # disabled by default (comix.to changed its API) — see docs/DATA_SOURCES.md.
     MANGA_VAULT_SOURCES: list[str] = _list_env("MANGA_VAULT_SOURCES", "nato,atsu")
 
     # Streaming sidecar (vendored walterwhite-69/Anivexa-API, see anivexa-api/)
-    ANIVEXA_URL: str = os.getenv("ANIVEXA_URL", "http://127.0.0.1:8002")
+    ANIVEXA_URL: str = _url_env("ANIVEXA_URL", "http://127.0.0.1:8002")
     # Aniraku hosted fallback (aniraku.tech's own backend — resolves streams
     # server-side, handling Cloudflare on its side)
-    ANIRAKU_URL: str = os.getenv(
+    ANIRAKU_URL: str = _url_env(
         "ANIRAKU_URL", "https://aniraku-backend-fhyy.onrender.com/api/v1"
     )
     ANIRAKU_ENABLED: bool = os.getenv("ANIRAKU_ENABLED", "true").lower() == "true"
@@ -57,7 +70,7 @@ class Settings:
     # /api/stream proxy fetches signed MP4s with frontend-mirror referers, so
     # streams play even though MovieBox's CDN rate-limits datacenter egress
     # (a Cloudflare Worker cannot serve movies — 429 RESOURCE_EXHAUSTED).
-    MOVIEBOX_URL: str = os.getenv("MOVIEBOX_URL", "http://127.0.0.1:8003")
+    MOVIEBOX_URL: str = _url_env("MOVIEBOX_URL", "http://127.0.0.1:8003")
     # Poster hosts (pbcdnw/pacdn.aoneroom.com) are covered by IMG_PROXY_ALLOW.
     # Providers Anivexa-API exposes (used to dispatch /watch routes)
     ANIVEXA_PROVIDERS: set[str] = {
